@@ -9,6 +9,9 @@
   解説
 　分割方法の総数を求めるのは,分割数と形が一緒なので分割数(Partition function)と同じ議論でok
 
+  regulation
+  1 <= m <= n <= 1000
+
   参考
   蟻本P66
 
