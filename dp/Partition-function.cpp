@@ -18,8 +18,6 @@
   validation
   http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_5_J&lang=jp
 */
-#include<vector>
-using namespace std;
 
 template<typename T>
 vector<vector<T>> get_partition(int n, int m){
