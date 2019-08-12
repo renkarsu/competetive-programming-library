@@ -5,7 +5,7 @@
 
   ! if you use MODint as T, you can get AC.
   ! もし,int型ではなく,MODint使っても正しく解答が得られます.（それはそう）
-  MODintでよろ
+  intでよろ
 
   解説
 　分割方法の総数を求めるのは,分割数と形が一緒なので分割数(Partition function)と同じ議論でok
@@ -19,7 +19,7 @@
   validation
   http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_5_J&lang=jp
 */
-
+//T == int
 template<typename T>
 vector<vector<T>> get_partition(int n, int m){
  
@@ -29,7 +29,7 @@ vector<vector<T>> get_partition(int n, int m){
     for(int i = 0; i <= n; ++i){
       for(int j = 1; j <= k; ++j){
 
-        if(i-j >= 0) dp[i][j] = dp[i][j-1] + dp[i-j][j];
+        if(i-j >= 0) (dp[i][j] = dp[i][j-1] + dp[i-j][j])%MOD;
         else         dp[i][j] = dp[i][j-1];
 
       }

@@ -3,8 +3,9 @@
   how many ways is that unlabeled n is divided into less than or equal to m groups
   n個以下の区別できない品物を,m個以下に分割する方法の総数
 
-  if you use MODint as T, you can get AC.
-  もし,int型ではなく,MODint使っても正しく解答が得られます.（それはそう）
+  ! if you use MODint as T, you can get AC.
+  ! もし,int型ではなく,MODint使っても正しく解答が得られます.（それはそう）
+  MODintでよろ
 
   解説
 　分割方法の総数を求めるのは,分割数と形が一緒なので分割数(Partition function)と同じ議論でok
