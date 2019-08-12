@@ -35,6 +35,7 @@ vector<vector<T>> get_partition(int n, int m){
     }
     return dp;
 }
+//nのm分割==jのi分割
 /*
 int main() {
   int n, m;
@@ -42,3 +43,4 @@ int main() {
   cout << get_partition< modint >(n, m)[m][n] << endl;
 }
 */
+//http://judge.u-aizu.ac.jp/onlinejudge/review.jsp?rid=3806321#1
