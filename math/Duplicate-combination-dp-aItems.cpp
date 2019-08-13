@@ -1,3 +1,9 @@
+/*
+n種類の品物があり、i番目の品物はa[i]個ある。異なる種類は区別できる。
+これらの中からm個選ぶ組み合わせの総数は？
+
+蟻本p67
+*/
 vector<vector<int>> get_nHm(){
  
     vector<vector<int>> dp(n + 1, vector<int>(m + 1));
