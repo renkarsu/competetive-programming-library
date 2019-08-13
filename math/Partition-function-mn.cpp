@@ -23,7 +23,7 @@
 template<typename T>
 vector<vector<T>> get_partition(int n, int m){
  
-    vector<vector<T>> dp(m + 1, vector< T >(n + 1));
+    vector<vector<T>> dp(m + 1, vector<T>(n + 1));
  
     dp[0][0] = 1;
     for(int i = 1; i <= m; i++){
