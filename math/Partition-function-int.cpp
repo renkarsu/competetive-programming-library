@@ -41,6 +41,6 @@ vector<vector<T>> get_partition(int n, int m){
 int main() {
   int n, m;
   cin >> n >> m;
-  cout << get_partition< modint >(n, m)[n][m] << endl;
+  cout << get_partition< int >(n, m)[n][m] << endl;
 }
 */
