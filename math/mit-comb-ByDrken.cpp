@@ -96,7 +96,7 @@ template<class T> struct BiCoef {
 using mit = Fp<MOD>;
 BiCoef<mit> bc;
 
-/*7
+/*
 n <= 1e7
 bc.init(MAX);
 bc.com(n, k);
